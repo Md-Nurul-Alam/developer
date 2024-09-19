@@ -46,7 +46,9 @@ header button{
     font-weight: 600;
     padding: 21px 24px;
      }
+
      /* Shared style */
+
 .section-title{
     color: rgb(13, 19, 33);
     font-size: 32px;
@@ -58,9 +60,7 @@ header button{
     font-size: 24px;
     font-weight: 700;
     margin-top: 11px;
-    /* text-align: left;  */
-
-}
+    }
 .section-description{
     color: rgb(13, 19, 33);
     font-size: 16px;
@@ -76,6 +76,22 @@ header button{
     text-align: center;
     padding: 12px 20px ;
 }  
+.skill-title{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 24px;
+}
+.skill-description{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    line-height: 26px;
+    letter-spacing: 0%;
+}
 /* Why web development  section styles*/
 .reason{
     width: 1140px;
@@ -143,3 +159,38 @@ header button{
 .vv{
     border-radius: 16px;
 }
+/* My Current Target section */
+.target{
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    
+}
+.target-content{text-align: center;}
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+    }
+.skill_1{
+    width:  364px;
+    max-height:  299px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);    
+}
+.skill_2{
+    width:  364px;
+    max-height:  299px;
+    padding: 40px;
+    margin: 0px 24px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05); 
+}
+.skill_3{
+    width: 364px;
+    max-height:  299px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+   }
