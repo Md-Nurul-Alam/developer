@@ -14,6 +14,7 @@ body{
     background-image: url("../assets/Hero-bg.png");
     background-repeat: no-repeat;
     background-position: center;
+    margin: 0 auto;
     
     }
 .hero-container{
@@ -80,6 +81,7 @@ header button{
     width: 1140px;
     height: 1393px;
     margin: 0 auto;
+    margin-top: 75px;
     padding: 80px 97px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
@@ -117,3 +119,27 @@ header button{
     width: 240px;
     height: 240px;
     }    
+    /* Inspiration Section Styles */
+.inspiration{
+    width: 1140px;
+    height: 775px;
+    margin: 0 auto;
+    margin-top: 90px;
+    margin-bottom: 150px;
+   }  
+.inspiration-content{
+    text-align: center;
+}  
+.video{
+    width: 1140px;
+    height: 614px;
+    margin-top: 48px;
+    padding: 32px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+.vv{
+    border-radius: 16px;
+}
