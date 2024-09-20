@@ -172,6 +172,15 @@ header button{
     display: flex;
     justify-content: space-around;
     }
+.skills-container a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
 .skill_1{
     width:  364px;
     max-height:  299px;
@@ -194,3 +203,80 @@ header button{
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
    }
+   /* Support section starts */
+   .support{
+    width: 1140px;
+    height: 313px;
+    margin: 0 auto;
+    padding: 64px 48px;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-image: url("../assets/handshake.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    border-radius: 16px;
+    background-blend-mode: overlay;
+    margin-bottom: 80px;
+   }
+.support-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    }
+.support-container input{
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+color: rgba(13, 19, 33, 0.4);
+font-size: 16px;
+font-weight: 400;
+padding: 19px 20px;
+width: 548px;
+height: 57px;
+}
+.support-container input[type="submit"]{
+    width: 120px;
+height: 57px;
+border-radius: 8px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+text-align: center;
+background: rgb(255, 255, 255);
+}
+.inputbtn{
+    margin-top: 45px;
+    display: flex;
+    gap: 16px;
+}
+.support-contant{
+    margin-top: 50px;
+   
+}
+
+.support-title{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+       }   
+.support-subtitle{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+
+}
